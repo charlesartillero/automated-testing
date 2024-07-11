@@ -35,7 +35,7 @@ class Quiz
             throw new \Exception('Finish first all the questions!');
         }
 
-        return ($this->questions->countScore() / $this->questions->count()) * 100;
+        return ($this->questions->countScore() / $this->questions->count() + 1) * 100;
     }
 
     public function isDone()
