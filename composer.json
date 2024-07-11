@@ -21,8 +21,5 @@
     },
     "scripts": {
         "test": "phpunit tests --colors"
-    },
-    "require": {
-        "php": "8.1.2 || ^8.2"
     }
 }
